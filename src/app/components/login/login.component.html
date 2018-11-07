@@ -1,0 +1,13 @@
+<div class="main-right">
+  <form>
+    <div class="full-width">
+      <input nz-input placeholder="Name" [(ngModel)]="params.name" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="full-width">
+      <input nz-input placeholder="Password" [(ngModel)]="params.password" [ngModelOptions]="{standalone: true}">
+    </div>
+  </form>
+  <div class="text-right">
+    <button nz-button nzType="default" (click)="onSubmit()">Submit</button>
+  </div>
+</div>

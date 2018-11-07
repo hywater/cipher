@@ -1,0 +1,8 @@
+div.main div.text-right{
+    text-align: right;
+    margin:5px 0;
+}
+div.main > form > .full-width{
+    width:100%;
+    margin:5px 0;
+}

@@ -1,0 +1,7 @@
+div.main{
+}
+div.main nz-table{
+    display: block;
+    margin-top:10px;
+    width:100%;
+}
